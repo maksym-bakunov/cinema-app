@@ -1,12 +1,12 @@
-package mate.academy.dao.impl;
+package cinema.dao.impl;
 
+import cinema.dao.OrderDao;
+import cinema.exception.DataProcessingException;
+import cinema.lib.Dao;
+import cinema.model.Order;
+import cinema.model.User;
+import cinema.util.HibernateUtil;
 import java.util.List;
-import mate.academy.dao.OrderDao;
-import mate.academy.exception.DataProcessingException;
-import mate.academy.lib.Dao;
-import mate.academy.model.Order;
-import mate.academy.model.User;
-import mate.academy.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

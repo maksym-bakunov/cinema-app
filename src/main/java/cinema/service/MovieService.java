@@ -1,7 +1,7 @@
-package mate.academy.service;
+package cinema.service;
 
+import cinema.model.Movie;
 import java.util.List;
-import mate.academy.model.Movie;
 
 public interface MovieService {
     Movie add(Movie movie);

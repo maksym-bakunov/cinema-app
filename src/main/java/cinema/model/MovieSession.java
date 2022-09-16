@@ -1,4 +1,4 @@
-package mate.academy.model;
+package cinema.model;
 
 import java.time.LocalDateTime;
 import javax.persistence.Column;

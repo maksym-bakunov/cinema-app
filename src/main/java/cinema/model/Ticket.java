@@ -1,4 +1,4 @@
-package mate.academy.model;
+package cinema.model;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;

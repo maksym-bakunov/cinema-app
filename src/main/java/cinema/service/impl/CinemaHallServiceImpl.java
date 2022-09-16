@@ -1,11 +1,11 @@
-package mate.academy.service.impl;
+package cinema.service.impl;
 
+import cinema.dao.CinemaHallDao;
+import cinema.lib.Inject;
+import cinema.lib.Service;
+import cinema.model.CinemaHall;
+import cinema.service.CinemaHallService;
 import java.util.List;
-import mate.academy.dao.CinemaHallDao;
-import mate.academy.lib.Inject;
-import mate.academy.lib.Service;
-import mate.academy.model.CinemaHall;
-import mate.academy.service.CinemaHallService;
 
 @Service
 public class CinemaHallServiceImpl implements CinemaHallService {
